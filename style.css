@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1;
+  font-weight: 700;
+  width: 100%;
+  padding: 10px;
+}
+
+.respiro {
+  padding: 20px;
+  box-shadow: rgba(27, 31, 35, 0.25) 0px 2px 0px,
+    rgba(255, 255, 255, 0.25) 0px 2px 0px inset;
+  margin-bottom: 30px;
+}
+
+.menu {
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 100%;
+  box-shadow: rgba(27, 31, 35, 0.25) 0px 2px 0px,
+    rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+/* CSS */
+.button-1 {
+  background-color: #ea4c89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #f082ac;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+  padding: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+.metrics1 {
+  /* aplicando propriedades ao pai */
+  width: 49%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  margin-bottom: 40px;
+}
+
+.metrics1 div {
+  width: 45%;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: width 2s;
+}
+
+.metrics1 p {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.metrics2 {
+  /* aplicando propriedades ao pai */
+  width: 49%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  margin-bottom: 40px;
+}
+
+.metrics2 div {
+  width: 45%;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.metrics2 p {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .metrics1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .metrics2 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .graphics-parte1 #container4 {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .graphics-parte1 #container3 {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .graphics-parte1 #container4 {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .graphics-parte2 #containerdrilldown {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .graphics-parte2 #columnStyled {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .graphics-parte3 {
+    margin-bottom: 40px;
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #container2 {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #container {
+    margin-bottom: 40px;
+    max-width: 360px;
+  }
+}
+
+
+.graphics-parte1 {
+  /* aplicando propriedades ao pai */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  margin-bottom: 40px;
+}
+
+.graphics-parte1 div-- {
+  width: 610px;
+  height: 500px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.graphics-parte2 {
+  /* aplicando propriedades ao pai */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  margin-bottom: 40px;
+}
+
+.graphics-parte2 div-- {
+  width: 610px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.graphics-parte3 {
+  /* aplicando propriedades ao pai */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  margin-bottom: 40px;
+}
+
+.graphics-parte3 div {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.highcharts-strong {
+  font-weight: bold;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  max-width: 1280px;
+  width: 100%;
+  margin: 1em auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+/* Especial */
+.highcharts-figure-new {
+  max-width: 1280px;
+  width: 100%;
+  margin: 1em auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#container3 {
+  width: 620px;
+  height: 400px;
+  margin: 0.1em auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#container4 {
+  width: 620px;
+  height: 400px;
+  margin: 0.1em auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#containerdrilldown {
+  width: 620px;
+  height: 400px;
+  margin: 0.1em auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#columnStyled {
+  width: 620px;
+  height: 400px;
+  margin: 0.1em auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 20px 10px;
+  margin: 50px 50px;
+}
+
+.container div {
+  border: 1px solid black;
+}
